@@ -1,4 +1,5 @@
-# template
+# Image generator
+![](/assets/screenshot.png)
 
 ```
 make setup

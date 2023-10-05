@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # REPLICATE_API_KEY = os.getenv("REPLICATE_API_TOKEN")
-REPLICATE_API_KEY = "r8_er3ADNty1wAAkS3cUZi8GBO24XWo2Ah1PVTBI"
+REPLICATE_API_KEY =  st.secrets["REPLICATE_API_KEY"]
 
 # Title
 st.title("Image Generator")
